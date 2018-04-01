@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>元素/概况/icon_daka</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="元素/概况/icon_daka">
+            <rect id="Rectangle-2" fill="#FFB85E" x="0" y="0" width="24" height="24" rx="2"></rect>
+            <rect id="Rectangle-32" x="6" y="6" width="12" height="12"></rect>
+            <path d="M11.2928932,15.1213203 L9.52512627,13.3535534 C9.32986412,13.1582912 9.01328163,13.1582912 8.81801948,13.3535534 C8.62275734,13.5488155 8.62275734,13.865398 8.81801948,14.0606602 L10.9393398,16.1819805 C11.0369709,16.2796116 11.1649321,16.3284271 11.2928932,16.3284271 C11.4208544,16.3284271 11.5488155,16.2796116 11.6464466,16.1819805 L15.1819805,12.6464466 C15.3772427,12.4511845 15.3772427,12.134602 15.1819805,11.9393398 C14.9867184,11.7440777 14.6701359,11.7440777 14.4748737,11.9393398 L11.2928932,15.1213203 Z M7,7 L17,7 C17.5522847,7 18,7.44771525 18,8 L18,17 C18,17.5522847 17.5522847,18 17,18 L7,18 C6.44771525,18 6,17.5522847 6,17 L6,8 L6,8 C6,7.44771525 6.44771525,7 7,7 L7,7 Z M7,8 L7,10 L17,10 L17,8 L7,8 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <rect id="Rectangle-3" fill="#FFFFFF" x="8" y="6" width="1" height="2" rx="0.5"></rect>
+            <rect id="Rectangle-3-Copy" fill="#FFFFFF" x="15" y="6" width="1" height="2" rx="0.5"></rect>
+        </g>
+    </g>
+</svg>

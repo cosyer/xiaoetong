@@ -1,0 +1,277 @@
+@import 'color.css';
+
+/*全局遮罩层*/
+@define-mixin active-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: #000;
+  opacity: .5;
+}
+
+@define-mixin overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: #000;
+  visibility: hidden;
+  opacity: 0;
+  transition: .5s;
+}
+
+@define-mixin overlay-active {
+  visibility: visible;
+  opacity: .5;
+}
+
+/*基础按钮样式，缺宽度，由文字和 padding 撑开，或者直接定义宽度*/
+@define-mixin button-main {
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  padding: 0 15px;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: $background-color-8;
+  border: 1px solid $border-button-color;
+}
+
+/*主要用于 router-link 作为跳转按钮，基本宽度都是 100 ，特殊的另外在具体文件中加上 width */
+/*作为 flex 左边第一个元素时，记得加上 margin-right: auto; */
+@define-mixin button-link {
+  display: inline-block;
+  width: 100px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  background-color: $light-blue;
+  color: #fff;
+  border-radius: 2px;
+}
+
+/*图文，音频，视频等的搜索框*/
+@define-mixin button-search {
+  display: inline-block;
+  width: 90px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 2px;
+  background-color: $background-color-3;
+  outline: none;
+  border: 1px solid $border-maincolor;
+  cursor: pointer;
+  color: $text-dark-color;
+}
+
+@define-mixin button-filter {
+  display: inline-block;
+  width: 100px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+  color: #fff;
+  background-color: $light-blue;
+  border: none;
+}
+
+/*主要在点击按钮后出现的提醒框中的确认和取消*/
+@define-mixin button-confirm {
+  display: inline-block;
+  width: 60px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid $border-maincolor;
+  background-color: $light-blue;
+  color: #fff;
+  cursor: pointer;
+}
+
+@define-mixin button-confirm-large {
+  display: inline-block;
+  width: 90px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid $border-maincolor;
+  background-color: $light-blue;
+  color: #fff;
+  /* outline: none;
+  border: none; */
+  cursor: pointer;
+}
+
+@define-mixin button-cancel {
+  display: inline-block;
+  width: 60px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid $border-maincolor;
+  background-color: $background-color-8;
+  cursor: pointer;
+}
+
+@define-mixin button-cancel-large {
+  display: inline-block;
+  width: 90px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid $border-maincolor;
+  background-color: $background-color-8;
+  cursor: pointer;
+}
+
+/*我的服务，用户，设置，资产等内容顶部的导航栏（不是最顶上的导航组件）*/
+@define-mixin topNav {
+  background-color: $background-color-8;
+  border-bottom: 1px solid $border-maincolor;
+  height: 50px;
+  line-height: 50px;
+}
+
+@define-mixin topNav-after {
+  content: '';
+  position: absolute;
+  top: 94%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: $light-blue;
+  transition: .3s;
+}
+
+/*router-link 用作 inline-block 时*/
+@define-mixin router-link-inline-block {
+  display: inline-block;
+  color: $light-blue;
+}
+/*router-link 用作 block 时*/
+@define-mixin router-link-block {
+  display: block;
+  color: $light-blue;
+}
+
+/*全局的 input 和 select 除了宽度外，其余相同*/
+@define-mixin input {
+  height: 36px;
+  line-height: 36px;
+  padding-left: 10px;
+  margin-right: 10px;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid $border-maincolor;
+}
+
+@define-mixin select {
+  display: block;
+  padding-left: 10px;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+/*以下全部，是 图文，视频，音频，专栏，直播等有 table 布局 的公共样式*/
+@define-mixin table {
+  width: 100%;
+  border: 1px solid $border-maincolor;
+  border-collapse: collapse;
+}
+
+@define-mixin thead {
+  height: 50px;
+  background-color: $background-color-8;
+}
+
+@define-mixin tr {
+  height: 90px;
+  border-top: 1px solid $border-maincolor;
+}
+
+@define-mixin tr-medium {
+  height: 60px;
+  border-top: 1px solid $border-maincolor;
+}
+
+@define-mixin tr-small {
+  height: 50px;
+  border-top: 1px solid $border-maincolor;
+}
+
+@define-mixin table-left {
+  text-align: left;
+  padding-left: 20px;
+}
+
+@define-mixin table-right {
+  text-align: right;
+  padding-right: 20px;
+}
+
+@define-mixin components {
+  padding: 20px;
+  background-color: #fff;
+  background-clip: content-box;
+}
+
+@define-mixin no-data-in-table {
+  padding: 20px 0;
+  font-size: 16px;
+  color: $text-light-color;
+  text-align: center;
+  border-top: 1px solid $border-maincolor;
+}
+
+@define-mixin recycleBin-wrapper {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+@define-mixin recycleBin-img {
+  width: 14px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+@define-mixin product-img {
+  width: 82px;
+  height: 60px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@define-mixin product-desc-wrapper {
+  font-size: 12px;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@define-mixin operator-above-table {
+  height: 36px;
+  line-height: 36px;
+  margin: 20px;
+  display: flex;
+}
+
+@define-mixin caption-above-table {
+  display: flex;
+  align-items: center;
+  margin: 0 20px 20px 20px;
+}

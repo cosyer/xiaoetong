@@ -1,0 +1,43 @@
+@import 'color.css';
+
+.article-nav,
+.article-title {
+  height: 52px;
+  line-height: 52px;
+}
+
+.article-link,
+.article-link-block {
+  color: $light-blue;
+}
+
+.warning {
+  color: $text-wraning;
+}
+
+.article-link-block {
+  display: block;
+}
+
+.article-time {
+  height: 26px;
+  line-height: 26px;
+  color: $text-light-color;
+}
+
+.article-content-title,
+.article-paragraph,
+.article-img,
+.article-link-block,
+.article-video {
+  margin: 20px 0;
+}
+
+.article-img {
+  max-width: 880px;
+}
+
+.article-video {
+  width: 880px;
+  height: 520px;
+}

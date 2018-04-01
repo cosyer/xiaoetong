@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/service/icon_service_online</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="9" y="22" width="6" height="2" rx="1"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="控件/悬浮/客服·反馈" transform="translate(-30.000000, -113.000000)">
+            <g id="icon/service/icon_service_online" transform="translate(30.000000, 113.000000)">
+                <rect id="Rectangle-3" x="0" y="0" width="24" height="24"></rect>
+                <path d="M12,23.5 C18.3512746,23.5 23.5,18.3512746 23.5,12 C23.5,5.64872538 18.3512746,0.5 12,0.5 C5.64872538,0.5 0.5,5.64872538 0.5,12 L1.5,12 C1.5,11.5066431 1.18427726,10.5386485 1.25011028,10.0634046 C1.32544238,9.51958736 1.79217142,9.47166615 1.94747589,8.9577956 C3.2517368,4.6422645 7.2589108,1.5 12,1.5 C16.8415077,1.5 20.8143723,4.98383865 22.028433,9.44062609 C22.4951191,9.27632391 22.8194887,10.0113311 22.881472,10.463112 C22.9460815,10.9340347 22.7145974,11.5113273 22.7145974,12 C22.7145974,12.9701621 22.5834063,14.6745509 22.5834063,15.4676997 C22.5834063,16.2608486 22.822901,16.7002629 21.5012281,16.5366203 C19.7619144,19.9323328 16.0773866,22.5 12,22.5 L12,23.5 Z" id="Oval" fill="#353535" fill-rule="nonzero"></path>
+                <rect id="Rectangle" stroke="#353535" stroke-width="1" x="1" y="9" width="4" height="8" rx="1"></rect>
+                <rect id="Rectangle-Copy" stroke="#353535" stroke-width="1" x="19" y="9" width="4" height="8" rx="1"></rect>
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#353535" stroke-width="1" x="9.5" y="22.5" width="5" height="1" rx="0.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

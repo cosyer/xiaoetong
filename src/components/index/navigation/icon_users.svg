@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>元素/nav/icon_users</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="元素/nav/icon_users">
+            <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+            <circle id="Oval-5" stroke="#CDD3E6" cx="9" cy="6" r="4"></circle>
+            <path d="M2,17 C2,13.1340068 5.13400675,10 9,10 C12.8659932,10 16,13.1340068 16,17 L2,17 Z" id="Combined-Shape" stroke="#CDD3E6"></path>
+        </g>
+    </g>
+</svg>

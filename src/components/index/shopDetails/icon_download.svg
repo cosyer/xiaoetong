@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>5B092605-043F-4FAD-A4B4-6F5C0B5B525B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="元素/概况/icon_download">
+            <rect id="Rectangle-2" fill="#FB6161" x="0" y="0" width="24" height="24" rx="2"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="6" y="15" width="12" height="2" rx="0.5"></rect>
+            <path d="M10,11 L10,7 C10,6.44771525 10.4477153,6 11,6 L13,6 C13.5522847,6 14,6.44771525 14,7 L14,11 L15.4,11 C15.4629515,11 15.5222291,11.0296388 15.56,11.08 C15.6262742,11.1683656 15.6083656,11.2937258 15.52,11.36 L12.12,13.91 C12.0488889,13.9633333 11.9511111,13.9633333 11.88,13.91 L8.48000001,11.36 C8.42963884,11.3222291 8.40000001,11.2629515 8.40000001,11.2 C8.40000001,11.0895431 8.48954306,11 8.60000001,11 L10,11 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

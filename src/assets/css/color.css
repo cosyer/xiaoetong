@@ -1,0 +1,36 @@
+$main-color: #353535;
+$text-light-color: #888;
+$text-dark-color: #666;
+$text-light-white:#cdd3e6;
+$text-background-color-1: #b2b2b2;
+$text-vip: #c0aa6d;
+$text-wraning: #fb6161;
+$text-wraning-lighter: #fb7171;
+$text-light-red: #ef6362;
+
+$light-blue: #2a75ed;
+$dark-blue: #2e63dc;
+
+$border-maincolor: #eee;
+$border-light-white: #3e3e52;
+$border-button-color: #e5e7eb;
+$border-light-yellow: #f5dab6;
+
+$background-color-1: #f0f0f0;
+$background-color-2: #f3f3f3;
+$background-color-3: #f6f6f6;
+$background-color-4: #f9f9f9;
+$background-color-5: #303954; /*index 主页面侧边栏*/
+$background-color-6: #434d6d; /*index 主页面侧边栏 hover*/
+$background-color-7: #f5f7fa; /*index 主页面右侧内容区*/
+$background-color-8: #fafbfc; /*index 主页面 button 和 设置页面菜单栏*/
+$background-color-9: #ff9066; /*index 主页面（店铺概况）营销功能*/
+$background-color-10: #ffbb64; /*index 主页面（店铺概况）营销功能*/
+$background-color-11: #56d37f; /*index 主页面（店铺概况）营销功能*/
+$background-color-12: #82aff9; /*index 主页面（店铺概况）营销功能*/
+$background-color-13: #fff1df; /*各类通知临时通知*/
+
+$footer-bgc-1: #313954;
+$footer-bgc-2: #232b46;
+$footer-title-color: #b2b2b2;
+$footer-cpr-color: #737d9f;

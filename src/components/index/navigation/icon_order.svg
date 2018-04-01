@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>元素/nav/icon_order</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="元素/nav/icon_order">
+            <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+            <path d="M13.6666667,1 L14.8333333,1 L14.8333333,1 C15.4776655,1 16,1.51167457 16,2.14285714 L16,15.8571429 L16,15.8571429 C16,16.4883254 15.4776655,17 14.8333333,17 L3.16666667,17 L3.16666667,17 C2.52233446,17 2,16.4883254 2,15.8571429 L2,2.14285714 L2,2.14285714 C2,1.51167457 2.52233446,1 3.16666667,1 L3.16666667,1 L4.33333333,1" id="Rectangle-2" stroke="#CDD3E6" stroke-linecap="round" stroke-linejoin="round"></path>
+            <rect id="Rectangle-3" fill="#CDD3E6" x="6" y="0" width="6" height="1" rx="0.5"></rect>
+            <rect id="Rectangle-29" fill="#CDD3E6" x="5" y="5" width="8" height="1" rx="0.5"></rect>
+            <rect id="Rectangle-29-Copy" fill="#CDD3E6" x="5" y="9" width="8" height="1" rx="0.5"></rect>
+            <rect id="Rectangle-29-Copy-2" fill="#CDD3E6" x="5" y="13" width="8" height="1" rx="0.5"></rect>
+        </g>
+    </g>
+</svg>
